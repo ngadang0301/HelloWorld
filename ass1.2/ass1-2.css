@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgba(44, 39, 39,0.4);
+}
+.line {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(19, 141, 223,0.7);
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(19, 141, 223,0.4);
+}
+.content {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(226, 222, 222);
+}
+.area-design {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-sub1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(231, 157, 19,0.4);
+}
+.feature-sub2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(162, 79, 218,0.4);
+}
+.feature-sub3 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(223, 31, 31,0.4);
+}
+.signup {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(19, 141, 223,0.3);
+}
+
+@media screen and (min-width: 600px){
+    .area-design {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .signup {
+        width: 50%;
+        order: 1;
+    }
+    .feature-sub1{
+        width: 50%;
+        order: 2;
+    }
+    .feature-sub2{
+        width: 50%;
+        order: 3;
+    }
+    .feature-sub3{
+        width: 50%;
+        order: 4;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .area-design {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .signup {
+        float: left;
+        width: 100%;
+        order: 4;
+    }
+    .feature-sub1{
+        float: left;
+        width: 33.33%;
+        order: 1;
+    }
+    .feature-sub2{
+        float: left;
+        width: 33.33%;
+        order: 2;
+    }
+    .feature-sub3{
+        float: left;
+        width: 33.33%;
+        order: 3;
+    }
+    .content {
+        order: 5;
+    }
+}

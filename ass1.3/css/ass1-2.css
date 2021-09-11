@@ -1,0 +1,32 @@
+body {
+    font-size: 20px;
+    color: rgb(131, 121, 121);
+}
+.top {
+    height: 30px;
+    background-color: rgb(92, 148, 212);
+}
+.head {
+    height: 100px;
+    background-color: rgb(152, 191, 236);
+}
+.content {
+    height: 250px;
+    background-color: rgb(236, 227, 227);
+}
+.signup{
+    height: 150px;
+    background-color: rgb(206, 223, 241);
+}
+.feature1{
+    height: 150px;
+    background-color: rgb(240, 197, 104);
+}
+.feature2{
+    height: 150px;
+    background-color: rgb(233, 141, 141);
+}
+.feature3{
+    height: 150px;
+    background-color: rgb(183, 161, 235);
+}

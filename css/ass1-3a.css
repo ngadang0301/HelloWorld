@@ -1,0 +1,90 @@
+.container {
+    height: 430px;
+    background-color: rgb(211, 220, 235);
+}
+.wrap {
+    box-sizing: border-box;
+    width: 100%;
+    height: 270px;
+    /* background-color: blanchedalmond; */
+    padding-top: 20px;
+}
+.row-other {
+    height: 100px;
+    padding: 0;
+}
+.left {
+    height: 100%;
+    width: 48%;
+}
+.right {
+    height: 100%;
+    width: 48%;
+}
+.left-box {
+    color: white;
+    height: 100%;
+    width: 25%;
+    /* background-color: deepskyblue; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right-box {
+    height: 100%;
+    width: 75%;
+    /* background-color: lightblue; */
+}
+.foot {
+    top: 350px;
+    left: 60%;
+    height: 50px;
+    width: 250px;
+    border: 3px solid rgb(153, 195, 229);
+    border-radius: 25px;
+}
+a {
+    color: rgb(153, 195, 229);
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(67, 157, 231);
+}
+.foot:hover {
+    border: 3px solid rgb(67, 157, 231);
+}
+.text-bold-big {
+    font-weight: bold;
+    font-size: 25px;
+}
+.orange-backcolor {
+    background-color: rgb(228, 104, 66);
+}
+.orange-color {
+    color: rgb(228, 104, 66);
+    font-weight: bold;
+}
+.black-color-big {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.green-backgroundcolor {
+    background-color: rgb(103, 163, 103);
+}
+.green-color {
+    font-weight: bold;
+    color: rgb(103, 163, 103);
+}
+.blue-background {
+    background-color: rgb(126, 161, 207);
+}
+.blue-color {
+    color: rgb(126, 161, 207);
+    font-weight: bold;
+}
+.right-box {
+    background-color: white;
+}
+
+

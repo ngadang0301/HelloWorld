@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: rgb(228, 222, 222);
+}
+.total {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.area1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.area1-logo {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(173, 166, 166);
+}
+.area1-navi {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(173, 166, 166);
+}
+.area1-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(173, 166, 166);
+}
+.area2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.area2-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    height: 100%;
+    width: 31%;
+    background-color: rgb(173, 166, 166);
+}
+.area2-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    height: 100%;
+    width: 66%;
+    background-color: rgb(173, 166, 166);
+}
+.area3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(173, 166, 166);
+    margin-bottom: 30px;
+}

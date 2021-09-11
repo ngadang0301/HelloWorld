@@ -1,0 +1,50 @@
+body{
+    color: rgb(161, 159, 159);
+    font-size: 20px;
+}
+.small {
+    width: 70px;
+    height: 50px;
+}
+.container-fluid {
+    height: 1150px;
+    background-color: rgb(189, 185, 185);
+}
+.wrap {
+    height: 1100px;
+}
+
+.navi {
+    height: 50px;
+    background-color: rgb(48, 122, 122);
+    /* margin-top: 30px; */
+}
+.fea {
+    height: 450px;
+    background-color: rgb(83, 81, 81);
+}
+.content {
+    height: 530px;
+    /* background-color: orange; */
+}
+.head {
+    height: 70px;
+    background-color: rgb(48, 122, 122);
+}
+.image {
+    height: 250px;
+}
+.sub-image{
+    height: 100%;
+    background-color: rgb(83, 81, 81);
+    width: 32%;
+}
+.cont {
+    height: 170px;
+}
+.sub-cont {
+    height: 100%;
+    background-color: rgb(48, 122, 122);
+    width: 32%;
+}
+
